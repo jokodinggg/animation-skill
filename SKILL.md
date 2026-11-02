@@ -5,7 +5,7 @@ description: Jokoding explainer video from a script and a recorded voice-over (E
 
 # Jokoding explainer
 
-This skill is a layer over `animate:animate`. **Invoke `animate:animate` first** and follow its flow (story check, look check, storyboard check, build, export, review). This file fixes the defaults that animate's intake would ask about. It also adds the Jokoding look and the lessons from the first piece (Hermes Agent, `jokoding-animate/pieces/hermes-green`).
+This skill is a layer over `animate:animate`, the animate plugin from https://github.com/cth9191/animate. If `animate:animate` is not in the skill list, install it with `claude plugin marketplace add cth9191/animate && claude plugin install animate@animate` (or `/plugin marketplace add cth9191/animate` then `/plugin install animate@animate`) and ask the user to restart Claude Code. **Invoke `animate:animate` first** and follow its flow (story check, look check, storyboard check, build, export, review). This file fixes the defaults that animate's intake would ask about. It also adds the Jokoding look and the lessons from the first piece (Hermes Agent, `jokoding-animate/pieces/hermes-green`).
 
 Talk to the user in Indonesian. Paths below: `SK/` is this skill's folder; `AN/` is the animate skill's base directory.
 
